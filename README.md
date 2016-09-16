@@ -20,6 +20,11 @@ sudo apt-get install build-essential python-dev
 git clone https://github.com/adafruit/Adafruit_Python_DHT.git && cd Adafruit_Python_DHT && sudo python setup.py install
 ```
 
+### Update uploadDHT22Data.py with your REST API push URL
+```
+REST_API_URL = " *** Your Push API URL goes here *** "
+```
+
 ### Run script
 ```
 python uploadDHT22Data.py
